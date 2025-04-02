@@ -8,7 +8,9 @@ const headerProps = {
     subtitle: 'Cadastro de um usuário: Incluir, Listar, Akterar e Excluir'
 }
 
-const baseUrl = 'http://localhost:3001/users'
+//const baseUrl = 'http://localhost:3001/users'
+const baseUrl = 'https://servidor-node-6pplic5y8-richard-paivas-projects.vercel.app/users';
+
 const initialState = {
     user : {name: '', email:''},
     list:[]
